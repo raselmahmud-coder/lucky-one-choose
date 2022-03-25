@@ -1,0 +1,12 @@
+.product{
+    background: wheat;
+    padding: 22px;
+    border-radius: 5px;
+}
+.product img {
+    width: 100%;
+}
+.product, h6, p{
+    text-align: center;
+    margin-top: 12px;
+}

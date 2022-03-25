@@ -1,17 +1,5 @@
 [
   {
-    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "name": "Angus burger",
-    "seller": "Addidas",
-    "price": 420,
-    "stock": 20,
-    "ratings": 4,
-    "ratingsCount": 3725,
-    "img": "https://img.freepik.com/free-photo/delicious-cheeseburger_1232-503.jpg?size=626&ext=jpg",
-    "shipping": 1,
-    "quantity": 0
-  },
-  {
     "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
     "name": "Aussie Burger",
     "seller": "Addidas",
@@ -141,18 +129,6 @@
     "ratingsCount": 1688,
     "img": "https://i.ibb.co/Xk7fHN6/image-3.jpg",
     "shipping": 48,
-    "quantity": 0
-  },
-  {
-    "id": "b357e19b-4dd9-4fc7-b5c0-9ed5255464ba",
-    "name": "Chori burger",
-    "seller": "Addidas",
-    "price": 63,
-    "stock": 46,
-    "ratings": 4,
-    "ratingsCount": 50,
-    "img": "https://images.unsplash.com/photo-1585730315692-5252e57d4b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJ1cmdlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
-    "shipping": 20,
     "quantity": 0
   }
   ]
