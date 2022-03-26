@@ -1,0 +1,17 @@
+.cart{
+    padding: 25px;
+    background: yellowgreen;
+    margin-top: 13px;
+    margin-left: 18px;
+    position: sticky;
+    top: 0;
+
+}
+.cart h1{
+    text-align: center;
+    font-size: 20px;
+}
+.cart p{
+    text-align: left;
+    font-size: 16px;
+}
