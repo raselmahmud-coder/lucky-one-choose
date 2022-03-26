@@ -13,9 +13,10 @@ const Main = () => {
     let newCart = [];
     const getProduct = (fullProduct) => {
         newCart = [...cart, fullProduct]
-
         setCart(newCart);
-        console.log(newCart);
+    }
+    const chooseAgain = () => {
+        setCart([]);
     }
     return (
         <div className="container">
@@ -30,7 +31,7 @@ const Main = () => {
                             />)
                     }
                     </div>
-                    <Cart cart={cart}/>
+                    <Cart cart={cart} chooseAgain={chooseAgain}/>
                 </div>
             </div>
         </div>

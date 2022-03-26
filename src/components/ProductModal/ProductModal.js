@@ -21,7 +21,6 @@ const ProductModal = (props) => {
       <Button variant="primary" onClick={handleShow}>
       Choose 1 for me
       </Button>
-      <button className='btn btn-success ms-2' onClick={handleShow}>Choose again</button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
