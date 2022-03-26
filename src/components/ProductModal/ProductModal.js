@@ -4,7 +4,7 @@ import { Button, Modal } from 'react-bootstrap';
 const ProductModal = (props) => {
     const { cart } = props;
     const [show, setShow] = useState(false);
-    const [product, setProduct] = useState(0);
+    const [product, setProduct] = useState("Please select some product");
     const handleClose = () => setShow(false);
     const handleShow = () => {
         setShow(true)
@@ -18,7 +18,7 @@ const ProductModal = (props) => {
     };
     return (
         <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button className='cart-btn btn btn-primary' variant="primary" onClick={handleShow}>
       Choose 1 for me
       </Button>
 

@@ -7,14 +7,14 @@ const Cart = ({ cart, chooseAgain}) => {
     return (
         <div>
             <div className="cart">
-                <h1>Order Summery <FontAwesomeIcon icon={faCoffee} /></h1>
+                <h1 className='summery'>Order Summery <FontAwesomeIcon icon={faCoffee} /></h1>
                 {
                     cart.map(product => { 
-                        return <h6 key={product.id}>{product.name}</h6>
+                        return <h6 className='summery' key={product.id}>{product.name}</h6>
                     })
                 }
-                <ProductModal cart={cart} className='btn btn-primary'></ProductModal>
-                <button onClick={chooseAgain} className='btn btn-success ms-2'>Choose again</button>
+                <ProductModal cart={cart}></ProductModal>
+                <button onClick={chooseAgain} className='cart-btn btn btn-success ms-2'>Choose again</button>
 
             </div>
         </div>
