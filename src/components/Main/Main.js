@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
+import External from '../External/External';
 import Shop from '../Shop/Shop';
 import './Main.css'
 const Main = () => {
@@ -33,6 +34,7 @@ const Main = () => {
                     </div>
                     <Cart cart={cart} chooseAgain={chooseAgain}/>
                 </div>
+                <External/>
             </div>
         </div>
     );
